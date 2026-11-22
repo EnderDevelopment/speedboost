@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "speedmod",
+  "version": "1.0.0",
+  "name": "speedmod",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.speedmod.SpeedmodMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
